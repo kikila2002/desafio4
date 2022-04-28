@@ -176,6 +176,27 @@ main {
     font-size: 5rem;
     background-color: rgb(51, 51, 51, 0.5);
 }
+.sacatuturno {
+    animation-name: pulsate-bck;
+    -webkit-animation: pulsate-bck 2s ease-in-out infinite both;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+
+}
+    @keyframes pulsate-bck {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+        50% {
+          -webkit-transform: scale(0.9);
+                  transform: scale(0.9);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+    }
+
 
 /* ---------- INDEX -----------------*/
 
@@ -183,7 +204,8 @@ main {
 .main-contactanos {
     width: 100%;
     height: 100%;
-    background-color: rgb(247, 204, 172);
+    background: rgb(247,255,147);
+    background: linear-gradient(180deg, rgba(247,255,147,1) 25%, rgba(161,227,216,1) 44%, rgba(6,154,142,1) 78%);
     color: rgb(58, 56, 69);
 }
 .section11{
@@ -271,7 +293,8 @@ main {
 /* -------------PREGUNTAS DE EMERGENCIA ------------------*/
 
 .main-pregunta {
-    background-color: rgb(247, 204, 172);
+    background: rgb(247,255,147);
+    background: linear-gradient(180deg, rgba(247,255,147,1) 25%, rgba(161,227,216,1) 44%, rgba(6,154,142,1) 78%);
     width: 100%;
     height: 100%;
     color: rgb(58, 56, 69);
@@ -316,9 +339,28 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scaleX(-1);
     
+
+    animation-name: slide-in-left ;
+    -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+
+@keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+        transform: translateX(0);
+        transform: scaleX(-1);
+      opacity: 1;
+    }
+}
+
 
 .div__imagen2 {
     width: 100%;
@@ -326,8 +368,25 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    animation-name: slide-in-right;
+    -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+@keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
 
 .pregunta__div {
     width: 100%;
@@ -383,8 +442,27 @@ main {
 .gridt1 {
     display: flex;
     justify-content: center;
+   
 
+    animation-name: rotate-vert-center;
+    -webkit-animation: rotate-vert-center 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: rotate-vert-center 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
+
+@keyframes rotate-vert-center {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+
 .turnero--titulo {
     font-size: 3rem;
 }
@@ -416,6 +494,12 @@ main {
 /*-------------------- TURNERO ONLINE ----------------------*/
 
 /*--------------------- QUIENES SOMOS -----------------------*/
+
+.mainquienes {
+    background: rgb(247,255,147);
+    background: linear-gradient(180deg, rgba(247,255,147,1) 25%, rgba(161,227,216,1) 44%, rgba(6,154,142,1) 78%);
+}
+
 .somossection1__div {
     text-align: center;
     padding-top: 20px;
@@ -427,13 +511,13 @@ main {
     color: black;
 }
 .somossection1__div--sub {
-    color: rgb(198, 155, 123);
+    color: rgb(0, 85, 85);
     font-size: 20px;
     padding-bottom: 10px;
 }
 
 .somossection1__div--sub1 {
-    color: rgb(198, 155, 123);
+    color: rgb(0, 85, 85);
     font-size: 20px;
     padding-bottom: 20px;
 }
