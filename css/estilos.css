@@ -1,0 +1,1071 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header__open{
+    display: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    
+    background-image: url(../imagenes/pexels-boys-in-bristol-photography-10254513.jpg);
+    background-size: cover;
+    border-bottom: solid 5px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.icono {
+    width: 5%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono__imagen {
+    width: 95%;
+    height: 95%;
+    
+}
+
+
+.lista {
+    width: 100%;
+}
+
+
+.lista__ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: end;
+    
+
+    gap: 2rem;
+
+    
+}
+
+.lista__enlace{
+    color: white;
+
+    text-decoration: none;
+    text-decoration: uppercase ;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+#contactanos {
+    width: 100%;
+    height: 76.4vh;
+}
+
+body {
+    background-color: rgb(58, 56, 69);
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+/* ----------------- HEADER --------------------*/
+
+/* ------------------ INDEX -------------------- */
+
+main {
+    width: 100%;
+    height: 100%;
+}
+.mainmain {
+    width: 100%;
+    height: 1200px;
+    background-image: url(../imagenes/perros.jpg);
+    background-size: cover;
+}
+
+.section01 {
+    width: 100%;  
+    height: 200px;  
+}
+
+.section01__div1 {
+    width: 100%;
+    
+}
+
+.section01__div1--titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 3rem;
+
+}
+.color1 {
+    color: white;
+    display: block;
+    margin-left: 8px;
+}
+.section01__div1--subtitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+ 
+
+.section02 {
+    width: 100%;
+    padding: 1rem;
+    
+    min-height:500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "ele1 ele2"
+        "ele3 ele3"
+    ;
+    gap: 1rem;
+    column-gap: 25rem;
+    align-items: center;
+
+}
+
+.section02__texto1 {
+
+    font-size: 1.5rem;
+    grid-area: ele1;
+    color: rgb(247, 204, 172);
+    
+   
+}
+
+.section02__texto2 {
+    
+    font-size: 1.5rem;
+    color: rgb(247, 204, 172);
+    grid-area: ele2;
+    
+
+}
+
+.section02__texto3 {
+    display: flex;
+    justify-content: center;
+    color: rgb(198, 155, 123);
+    grid-area: ele3;
+   
+    font-size: 5rem;
+    background-color: rgb(51, 51, 51, 0.5);
+}
+
+/* ---------- INDEX -----------------*/
+
+/* ----------CONTACTANOS--------------*/
+.main-contactanos {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 204, 172);
+    color: rgb(58, 56, 69);
+}
+.section11{
+    width: 100%;
+    
+}
+
+.section11__div{
+    width: 100%;
+   
+
+}
+
+.section11--titulo {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+/* .section11--img {
+    
+} */
+.section12{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 400px;
+    grid-template-areas: 
+        "te te"
+        "cuad imge"
+    
+    ;
+    padding-top: 2rem;
+    
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.section12__div0 {
+    grid-area: imge;
+    
+}
+
+
+.section12__div1 {
+    grid-area: te;
+    
+    
+}
+.section12__di2 {
+    margin-top: 2rem;
+    grid-area: cuad;
+
+}
+
+
+.section12__div--p {
+    font-size: 2rem;
+
+}
+
+
+.section12__div2 dd {
+    margin-left: 5px;
+}
+
+.section12__tabla {
+    margin-left: 320px;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.fondo__tabla {
+    background-color: rgb(192, 188, 188);
+}
+
+/* -------------CONTACTANOS------------*/
+
+/* -------------PREGUNTAS DE EMERGENCIA ------------------*/
+
+.main-pregunta {
+    background-color: rgb(247, 204, 172);
+    width: 100%;
+    height: 100%;
+    color: rgb(58, 56, 69);
+    }
+
+.pregunta__titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    font-size: 2rem;
+}
+
+
+.pregunta__sub {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    
+}
+
+.gridp {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 500px;
+    grid-template-areas: 
+    "img tex img2"
+    "img cua img2"
+    
+    ;
+    padding-top: 5rem;
+
+}
+
+.div__imagen {
+    width: 100%;
+    grid-area: img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(-1);
+    
+}
+
+.div__imagen2 {
+    width: 100%;
+    grid-area: img2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pregunta__div {
+    width: 100%;
+    grid-area: tex;
+    text-align: center;
+
+}
+
+.pregunta__form{
+    width: 100%;
+    height: 100%;
+    grid-area: cua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pregunta__form div {
+    width: 100%;
+    margin-bottom: 20;
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    border-right: solid 5px black;
+    font-size: 20px;
+    
+}
+.gmail {
+    border-top: solid 5px black;
+}
+
+.div__button {
+    text-align: center;
+    
+}
+/* -------------PREGUNTAS DE EMERGENCIA ---------------------*/
+
+/*--------------- TURNERO ONLINE ---------------------------*/
+.main--turnero {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../imagenes/fondo-tur.jpg);
+    background-size: cover;
+    
+}
+.turnero__div1 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gridt1 {
+    display: flex;
+    justify-content: center;
+
+}
+.turnero--titulo {
+    font-size: 3rem;
+}
+.turnero2 {
+    margin-left: 10px;
+    text-align: center;
+}
+.recodatorio1 {
+    margin: 8px;
+    color: blue;
+}
+
+.turnero3 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.turnero3__div {
+    width: 100%;
+    border: solid 4px orange;
+    border-left: solid 5px black;
+    border-bottom: solid 5px black;
+    border-right: solid 5px black;
+    padding: 10px;
+}
+/*-------------------- TURNERO ONLINE ----------------------*/
+
+/*--------------------- QUIENES SOMOS -----------------------*/
+.somossection1__div {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.somossection1__div--titulo {
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: black;
+}
+.somossection1__div--sub {
+    color: rgb(198, 155, 123);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.somossection1__div--sub1 {
+    color: rgb(198, 155, 123);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.somossection2 {
+    width: 100%;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80% 20%;
+    grid-template-areas: 
+        "el1 el2 el3 el4"
+        "el5 el6 el7 el8"
+    ;
+    gap: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.el1 {
+    grid-area: el1; 
+   
+}
+.el2 {
+    grid-area: el5;
+}
+.el3 {
+    grid-area: el2; 
+   
+}
+.el4 {
+    grid-area: el6;
+}
+.el5 {
+    grid-area: el3; 
+    
+}
+.el6 {
+    grid-area: el7;
+}
+.el7 {
+    grid-area: el4; 
+
+}
+.el8 {
+    grid-area: el8;
+}
+
+.somos__div1--img {
+    width: 100%;
+}
+
+.descripcion {
+  
+    color: rgb(247, 204, 172);
+}
+
+.nombres {
+    font-size: 20px;
+}
+
+/* -------------- QUIENES SOMOS -----------------*/
+/* --------- FOOTER ------------- */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    border-top: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+
+    
+}
+
+.div__iconos {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    
+}
+
+.div1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+
+
+
+.div2 {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.div3 {
+    display: flex;
+    height: 100%;
+    width: 5%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #333333;
+
+}
+
+.div3 img {
+    width: 100%;
+    height: 100%;
+
+}
+.item {
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+
+
+    /*------------ HEADER -----------*/
+    .mainmain {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__icono {
+        display: flex;
+        font-size: 50px;
+        color: rgb(247, 204, 172);
+        padding: 2rem;
+    }
+    .header__open {
+        display: block;
+        text-decoration: none;
+       
+    }
+
+    #sidebar{
+        background-color: rgb(130, 111, 102, 0.95);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 80%;
+        max-width: 350px;
+        transform: translateX(-100%);
+        padding: 1rem;
+        transition: transform 0.5s;
+        z-index: 500;
+    }
+
+    .lista__ul {
+        font-size: 1.2rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: flex-end;
+        
+    
+        gap: 2rem;
+        
+    }
+    #sidebar:target {
+
+        transform: translateX(0);
+    }
+
+
+    .icono{
+        width: 15%;
+    }
+
+    .item{
+        display: block;
+    }
+
+    /*------------- INDEX -----------------*/
+
+    .section02__texto1 {
+        font-size: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+    .section02__texto2 {
+        width: 100%;
+        height: 100%;
+        font-size: 1rem;
+        text-align: end;
+
+    }
+    .section02__texto3 {
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        color: wheat ;
+        
+    }
+
+    
+
+
+    /*-----------------------Quienes somos ------------*/
+    .somossection2{
+        display: flex;
+        flex-direction: column;
+    }
+    .descripcion {
+        font-size: 1.3rem;
+        color: rgb(247, 204, 172);
+    }
+    
+    .nombres {
+        font-size: 1.8rem;
+    }
+
+    /*-----------------Contactanos --------------------------*/
+    .main-contactanos {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section12 {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 300px 200px 300px;
+        grid-template-areas: 
+        "imge"
+        "te"
+        "cuad"
+        ;
+        gap: 1rem;
+        text-align: center;
+    }
+    .section12__div0 {
+        grid-area: imge;
+    }
+    .section12__div1 {
+        grid-area: te;
+    }
+    .section12__div2 {
+        grid-area: cuad;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section12__tabla {
+        margin-left: 0px;
+        text-align: left;
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+
+
+    /* ----------------- Preguntas de emergencia ---------------*/ 
+
+    .gridp {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 500px;
+        grid-template-areas: 
+        "tex img2"
+        "cua img2"
+        
+        ;
+        padding-top: 2rem;
+    
+    }
+    
+    .div__imagen {
+        display: none;
+    }
+    
+    .div__imagen2 {
+        width: 100%;
+        grid-area: img2;
+        
+    }
+    .div__imagen2 {
+        width: 100%;
+    }
+    
+    
+    .pregunta__div {
+        width: 100%;
+        grid-area: tex;
+        text-align: center;
+        padding: 1rem;
+    
+    }
+    
+    .pregunta__form{
+        width: 100%;
+        height: 100%;
+        grid-area: cua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    
+    /*---------------footer -----------------------*/
+    .div3{
+        width: 10%;
+    }
+    .div2{
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+
+
+}
+
+/*----------------------- mobile -----------------*/
+@media screen and (max-width: 600px) {
+
+
+
+    /*-------------HEADER---------------*/
+    .item{
+        display: block;
+    }
+    .mainmain {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+     
+    .header__icono {
+        display: block;
+        font-size: 32px;
+        color: rgb(247, 204, 172);
+    }
+    .header__open {
+        text-decoration: none;
+        display: block;
+    }
+
+    #sidebar{
+        background-color: rgb(130, 111, 102, 0.95);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 80%;
+        max-width: 350px;
+        transform: translateX(-100%);
+        padding: 1rem;
+        transition: transform 0.5s;
+        z-index: 500;
+    }
+
+    .lista__ul {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: flex-end;
+        
+    
+        gap: 2rem;
+        
+    }
+    #sidebar:target {
+
+        transform: translateX(0);
+    }
+
+
+    .icono{
+        width: 20%;
+    }
+
+    /* -------------- INDEX --------------------*/
+    .section01__div1--titulo{
+        font-size: 2.5rem;
+        text-align:center;
+
+    }
+    .section01__div1--subtitulo{
+        text-align: center;
+    }
+    
+
+    .section02 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-areas: 
+            "el1"
+            "el2"
+            "el3"
+        ;
+        justify-content: center;
+        padding-top: 6rem;
+    }
+    .section02__texto1 {
+        grid-area: el1;
+        font-size: 1rem;
+        
+    }
+
+    .section02__texto2 {
+        grid-area: el2;
+        font-size: 1rem;
+        padding-top:1rem;
+        text-align: start;
+        
+    }
+    .section02__texto3 {
+        grid-area: el3;
+        font-size: 3rem;
+        text-align: center;
+        background-color: transparent;
+        
+    }
+    /* -----------------QUIENES SOMOS------------*/
+
+
+    .somossection2{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    
+    
+    .descripcion {
+        font-size: 1rem;
+        color: rgb(247, 204, 172);
+    }
+    
+    .nombres {
+        font-size: 20px;
+    }
+
+    /* ------------- PREGUNTAS FRECUENTES ------------------*/
+    
+    .pregunta__inicio {
+        text-align: center;
+    }
+
+    .gridp {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .gridp .div__imagen2{
+        display: none;
+    }
+    .div__imagen {
+        display: none;
+        
+    }
+    .pregunta__form {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    
+    .pregunta__div {
+        width: 100%;
+        grid-area: tex;
+        text-align: center;
+    
+    }
+    
+    .pregunta__form{
+        width: 100%;
+        height: 100%;
+        grid-area: cua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .pregunta__form div {
+        width: 100%;
+        margin-bottom: 20;
+        border-bottom: solid 5px black;
+        border-left: solid 5px black;
+        border-right: solid 5px black;
+        font-size: 20px;
+        
+    }
+    .gmail {
+        border-top: solid 5px black;
+    }
+    
+    .div__button {
+        text-align: center;
+        
+    }
+    /* ----------- CONTACTANOS -------------- */ 
+    .main-contactanos {
+        width: 100%;
+        height: 1200px;
+    }
+
+    
+    .section12__div0 {
+        width: 100%;
+        height: 100%;
+    }
+    .section11--img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .section12__div1 {
+        margin-top: 1rem;
+        font-size: 1rem;
+        
+    }
+    .section12__div1 p { 
+        font-size: 1rem;
+    }
+    .section12__div2 {
+       
+       
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section12__tabla {
+
+        font-size: 1rem;
+        
+    }
+    .section11--titulo {
+        font-size: 1.5rem;
+    }
+    /* ------- Turnero online ---------*/
+    .main--turnero {
+        width: 100%;
+        height: 1050px;
+    }
+    .turnero--titulo {
+        font-size: 2rem;
+    }
+    .turnero3__div{
+        font-size: 0.8rem;
+        padding: 3px;
+    }
+    .gridt0 {
+        font-size: 1rem;
+    }
+    .gridt1 {
+        display: flex;
+        align-items: center;
+    }
+    /* -------- FOOTER -----------*/
+    footer {
+        display: grid;
+        height: 100px;
+        width: 100%;
+        grid-template-columns: 30%, 60%, 10%;
+        grid-template-rows: 100px;
+        grid-template-areas: 
+            "di1 di2 di3"
+        ;
+
+    
+    }
+
+    .div__iconos {
+        width: 30px;
+        height:30px;
+        
+        
+    }
+    .div1{
+        grid-area: di1;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "i1 i2"
+            "i3 i4"
+        ;
+        justify-content: center;
+        align-items: center;
+    }
+    .d1 {
+        grid-area: i1;
+
+    }
+    .d2 {
+        grid-area: i2;
+    }
+    .d3 {
+        grid-area: i3;
+    }
+    .d4 {
+        grid-area: i4;
+    }
+
+
+    .div2 {
+        width: 100%;
+        grid-area: di2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        font-size: 10px;
+    }
+    .div3 {
+        grid-area: di3;
+        width: 100%;
+    }
+
+}
+
