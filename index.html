@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica Veterinaria Razoka</title>
-    <link rel="stylesheet" href="./css/estilos.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="/css/estilos.css">
         
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,89 +23,88 @@
     <script src="https://kit.fontawesome.com/1ce7e3f247.js" crossorigin="anonymous"></script>
 </head>
 <body >
-
-    <header> 
-        <div class="icono">
+    <div class="container">
+        <header class="mb-3 "> 
+            <nav class=" navbar navbar-expand-lg navbar-light bg-light" >
+                <div class=" container-fluid div-icono " >
+                    <img class="navbar-brand icono"   src="imagenes/LogoTipo.jpg" alt="logotipo Razoka" >
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar" >
+                        <ul class="navbar-nav ms-auto  " >
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/Preguntas-de-emergencias.html">Preguntas de Emergencias</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/Contactanos.html">Contactanos</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/Turnero-Online.html">Turnero Online</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/Quienes-Somos.html">Quienes Somos</a></li>
+                        </ul>
+                    </div>     
+                </div>
+            </nav>
             
-            <img class="icono__imagen" src="imagenes/LogoTipo.jpg" alt="logotipo Razoka" >
-        </div>
-        <a class="header__open" href="#sidebar">
-            <i  class="header__icono fas fa-bars"></i>
-        </a>
-        <nav class="lista" id="sidebar">
-            <ul class="lista__ul">
-                <li>
-                    <a class="lista__enlace" href="index.html">Inicio</a></li>
-                <li>
-                    <a class="lista__enlace" href="pages/Preguntas-de-emergencias.html">Preguntas de Emergencias</a></li>
-                <li>
-                    <a class="lista__enlace" href="pages/Contactanos.html">Contactanos</a></li>
-                <li>
-                    <a class="lista__enlace" href="pages/Turnero-Online.html">Turnero Online</a></li>
-                <li>
-                    <a class="lista__enlace" href="pages/Quienes-Somos.html">Quienes Somos</a></li>
-                <li class="item" >
-                    <a class="lista__enlace" href="#">❌</a></li>
-            </ul>
-        </nav>
-        
-    </header>
-  
-    <main class="mainmain" >
-        <section class="section01" >   
-            <div class="section01__div1" >
-                <h1 class="section01__div1--titulo" >Clínica Veterina Razoka</h1>
-                <h3 class="section01__div1--subtitulo" >La salud animal es nuestra prioridad</h3> 
-            </div>
-            
-        </section>
-        <section>
-            <div class="section02">
+        </header>
+    
+        <main >
+            <section >   
                 
-
-                <div class="section02__texto1" >
-                    <p  >
-                        CLINICA VETERINARIA RAZOKA nace con la vocación de prestar un servicio veterinario de calidad excelente, para pequeños animales, en Argentina Cordoba Capital. Para ello la clínica cuenta con el mejor equipamiento posible y su equipo humano esta compuesto por personal de gran experiencia y extensa formación. No se han querido olvidar los aspectos relacionados con los propietarios de nuestros pacientes y el hacer sentir a nuestros clientes como en casa es una prioridad.
-                    </p>
+                <div class="row">
+                    <div class="col-12 text-center ">
+                        <h1 class="display-3">Clínica Veterina Razoka</h1>
+                        <h3 class="display-6">La salud animal es nuestra prioridad</h3> 
+                    </div>
                 </div>
 
-                <div class="section02__texto2"  >
-                    <p > 
-                        En cuanto a la mecanica de trabajo utilizamos un sistema preferente de citas para evitar largas esperas e incomodidades aunque el coger cita no es requisito indispensable. Así mismo, tras la evaluación del caso realizamos un presupuesto lo más completo posible para que así el propietario pueda elegir entre las distintas opciones y esté informado en todo momento de los costes.
-                    </p>
-                </div>
+                <div class="row mt-5">
+                    
 
-                <div class="section02__texto3" >
-                    <p class="sacatuturno" >
-                        SACA TU TURNO <span> AQUI</span> 
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-   
-    <footer>
-        <div class="div1">
+                    <div class="col-12 col-md-6" >
+                        <p  >
+                            CLINICA VETERINARIA RAZOKA nace con la vocación de prestar un servicio veterinario de calidad excelente, para pequeños animales, en Argentina Cordoba Capital. Para ello la clínica cuenta con el mejor equipamiento posible y su equipo humano esta compuesto por personal de gran experiencia y extensa formación. No se han querido olvidar los aspectos relacionados con los propietarios de nuestros pacientes y el hacer sentir a nuestros clientes como en casa es una prioridad.
+                        </p>
+                    </div>
 
-            <a class="d1" target="_blank" href="https://www.instagram.com/"> <img class="div__iconos" src="/imagenes/igns.png" alt="instagram-logo"> </a>
-                 
-            <a class="d2" target="_blank" href="https://twitter.com/"><img class="div__iconos" src="/imagenes/twitter.png" alt="twitter-logo"></a>
+                    <div class= "col-12 col-md-6">
+                        <p > 
+                            En cuanto a la mecanica de trabajo utilizamos un sistema preferente de citas para evitar largas esperas e incomodidades aunque el coger cita no es requisito indispensable. Así mismo, tras la evaluación del caso realizamos un presupuesto lo más completo posible para que así el propietario pueda elegir entre las distintas opciones y esté informado en todo momento de los costes.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 text-center">
+                        <p class="display-5">
+                            SACA TU TURNO <span> AQUI</span> 
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer class="row mt-5">
+            <div class="col-5">
+
+                <a target="_blank" href="https://www.instagram.com/"> <img width="35px" height="35px" src="/imagenes/igns.png" alt="instagram-logo"> </a>
+                    
+                <a target="_blank" href="https://twitter.com/"><img width="35px" height="35px" src="/imagenes/twitter.png" alt="twitter-logo"></a>
+                    
+                <a target="_blank" href="https://www.facebook.com/"> <img width="35px" height="35px" src="/imagenes/faceboock.png" alt="facebook-logo"></a>
                 
-            <a class="d3" target="_blank" href="https://www.facebook.com/"> <img class="div__iconos" src="/imagenes/faceboock.png" alt="facebook-logo"></a>
-               
-            <a class="d4" target="_blank" href="https://www.whatsapp.com/">   <img class="div__iconos" src="/imagenes/wsp.png" alt="whatsapp-logo"></a>
-             
-        </div>
-        <div class="div2">
-            <p>Derechos Reservados - Clinica Veterinaria Razoka</a></p> 
-        </div>
-        <div class="div3">
-            <img src="imagenes/LogoTipo2.png" alt="logotipo" width="50px" height="50px">
-        </div>
-           
+                <a target="_blank" href="https://www.whatsapp.com/">   <img width="35px" height="35px" src="/imagenes/wsp.png" alt="whatsapp-logo"></a>
+                
+            </div>
+            <div class="col-6" >
+                <p class="text-center" >Derechos Reservados - Clinica Veterinaria Razoka</a></p> 
+            </div>
+            <div class="col-1" >
+                <img  src="imagenes/LogoTipo2.png" alt="logotipo" width="50px" height="50px">
+    
+        </footer>
 
-    </footer>
-
-
+    </div>
 </body>
 </html>
