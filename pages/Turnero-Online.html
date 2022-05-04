@@ -5,137 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turnero Online - Razoka</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/1ce7e3f247.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <header> 
-        <div class="icono">
-            <img class="icono__imagen" src="../imagenes/LogoTipo.jpg" alt="logotipo Razoka" >
-        </div>
-        <a class="header__open" href="#sidebar">
-            <i  class="header__icono fas fa-bars"></i>
-        </a>
-        <nav class="lista" id="sidebar">
-            <ul class="lista__ul">
-                <li>
-                    <a class="lista__enlace" href="../index.html">Inicio</a></li>
-                <li>
-                    <a class="lista__enlace" href="Preguntas-de-emergencias.html">Preguntas de Emergencias</a></li>
-                <li>
-                    <a class="lista__enlace" href="Contactanos.html">Contactanos</a></li>
-                <li>
-                    <a class="lista__enlace" href="Turnero-Online.html">Turnero Online</a></li>
-                <li>
-                    <a class="lista__enlace" href="Quienes-Somos.html">Quienes Somos</a></li>
-                <li class="item" >
-                    <a class="lista__enlace" href="#">❌</a></li>
-            </ul>
-        </nav>
+    <div class="container" >
+        <header > 
+            <div class="cabezafondo">
+                <nav class=" navbar navbar-expand-lg navbar-light bg-light" >
+                    <div class="bg-success bg-gradient container-fluid div-icono " >
+                        <img class="navbar-brand icono"   src="../imagenes/LogoTipo.jpg" alt="logotipo Razoka" >
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar" >
+                            <ul class="navbar-nav ms-auto  " >
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Inicio</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Preguntas-de-emergencias.html">Preguntas de Emergencias</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contactanos.html">Contactanos</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Turnero-Online.html">Turnero Online</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Quienes-Somos.html">Quienes Somos</a></li>
+                            </ul>
+                        </div>     
+                    </div>
+                </nav>
+            </div>
+        </header>
         
-    </header>
-    
-    <main class="main--turnero" >
-        <section>
-            <div class="turnero__div1">
-                <h1 class="turnero--titulo">TURNERO ONLINE</h1>
-            </div>
-           
-        </section>
-        <section class="turnero2">
-            <div class="gridt0" >
-                <h3>Reserva de Turno: </h3>
-                <h4>Debera completar en las casiilas con sus datos, el dia y horario que quiera pedir su turno. Previamente de haber completado y enviado, haciendo click en el boton de envio, le llegara a su gmail la confirmacion de su turno o en caso que el horario que usted haya elegido este ocupado, le informaremos la disponibilidad horaria de ese dia, mediante gmail.</h4>
-                <dt class="recodatorio1" >Recordatorio:</dt>
-                <dd class="recodatorio1" >Si usted esta sufriendo una emergencia puede llegarse sin turno previo ya que contamos con un servicio de 24hs.</dd>
-                
-            </div>
-           
-            <div class="gridt1" >
-                <form action="">
-                    <div class="turnero3__div" >
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre...">
-                    </div>
-                    <div class="turnero3__div" >
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido...">
-                    </div>
-                    <div class="turnero3__div" >
-                        <label for="gmail">Gmail:</label>
-                        <input type="email" name="email" id="email" placeholder="Ingresa su gmail...">
-                    </div>
-                    <div class="turnero3__div" >
-                        <label for="telefono">Telefono:</label>
-                        <input type="number" id="telefono" name="telefono" placeholder="Ingrese su telefono...">
-                    </div>
-                    <div class="turnero3__div" >
-                        <label for="fecha">Fecha:</label>
-                        <input type="date" name="fecha" id="fecha" value="08-01-01" min="01-01-1800" max="30-09-2050">
-                    </div>
-                    <div class="turnero3__div" >
-                        <label for="horario">Horario disponible:</label>
-                        <input type="time" name="horario" id="horario" min="00:00" max="23:59" step="3600">
-                    </div>
-                    <div class="turnero3__div" >
-                        <label for="animal">Animal:</label>
-                        <select name="animal" id="animal" >
-                            <option value="Perro">Perro</option>
-                            <option value="Gato">Gato</option>
-                            <option value="Conejo">Conejo</option>
-                        </select>
-                    </div>
-                    <div class="turnero3__div" >
-                        <h4>¿Su mascota lleva las vacunas al dia?</h4>
-                        <label for="si">Si:</label>
-                        <input type="radio" name="consulta" id="si" value="Si">
-
-                        <label for="No">No:</label>
-                        <input type="radio" name="consulta" id="No" value="No">
-
-                        <label for="Nolose">No lo se:</label>
-                        <input type="radio" name="consulta" id="Nolose" value="No lo se">
-                    </div>
-                    <div class="turnero3__div" >
-                        <label for="comentario">Comentario a tener en cuenta:</label>
-                        <textarea name="comentario" id="comentario" cols="25" rows="10"></textarea>
-                    </div>
-                    <div class="turnero3__div" >
-                        <button>Enviar</button>
-                    </div>
+        <main class="quienesfondo ps-3" >
+            <section>
+                <div class="text-center">
+                    <h1 class="display-4" >TURNERO ONLINE</h1>
                 </div>
+            
+                <div >
+                    <h3>Reserva de Turno: </h3>
+                    <h4>Debera completar en las casiilas con sus datos, el dia y horario que quiera pedir su turno. Previamente de haber completado y enviado, haciendo click en el boton de envio, le llegara a su gmail la confirmacion de su turno o en caso que el horario que usted haya elegido este ocupado, le informaremos la disponibilidad horaria de ese dia, mediante gmail.</h4>
+                    <dt >Recordatorio:</dt>
+                    <dd >Si usted esta sufriendo una emergencia puede llegarse sin turno previo ya que contamos con un servicio de 24hs.</dd>
+                    
+                </div>
+            
+                <div class="row" >
+                    <form class="row" action="">
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label class="col-form-label" for="nombre">Nombre:</label>
+                            <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre...">
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label class="col-form-label" for="apellido">Apellido:</label>
+                            <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido...">
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label class="col-form-label"for="gmail">Gmail:</label>
+                            <input class="form-control" type="email" name="email" id="email" placeholder="Ingresa su gmail...">
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label class="col-form-label"for="telefono">Telefono:</label>
+                            <input class="form-control" type="number" id="telefono" name="telefono" placeholder="Ingrese su telefono...">
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label class="col-form-label"for="fecha">Fecha:</label>
+                            <input class="form-control" type="date" name="fecha" id="fecha" value="08-01-01" min="01-01-1800" max="30-09-2050">
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label class="col-form-label"for="horario">Horario disponible:</label>
+                            <input class="form-control" type="time" name="horario" id="horario" min="00:00" max="23:59" step="3600">
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label for="animal">Animal:</label>
+                            <select class="form-control" name="animal" id="animal" >
+                                <option value="Perro">Perro</option>
+                                <option value="Gato">Gato</option>
+                                <option value="Conejo">Conejo</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <h4>¿Su mascota lleva las vacunas al dia?</h4>
+                            <label for="si">Si:</label>
+                            <input  type="radio" name="consulta" id="si" value="Si">
 
-            </form>
+                            <label for="No">No:</label>
+                            <input  type="radio" name="consulta" id="No" value="No">
 
-        </section>
-    </main>
+                            <label for="Nolose">No lo se:</label>
+                            <input  type="radio" name="consulta" id="Nolose" value="No lo se">
+                        </div>
+                        <div class="text-center col-12  mb-3">
+                            <label for="comentario">Comentario a tener en cuenta:</label>
+                            <textarea class="form-control" name="comentario" id="comentario" cols="25" rows="10"></textarea>
+                        </div>
+                        <div class=" text-center mb-3 col-12">
+                            <button class="btn btn-dark btn-lg">Enviar</button>
+                        </div>
+                    
 
-    
-    <footer>
-        <div class="div1">
-            <a target="_blank" href="https://www.instagram.com/"> <img class="div__iconos" src="../imagenes/igns.png" alt="instagram-logo"> </a>
-                 
-            <a target="_blank" href="https://twitter.com/"><img class="div__iconos" src="../imagenes/twitter.png" alt="twitter-logo"></a>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        
+        <footer class="row text-white bg-dark">
+            <div class="col-4">
+
+                <a target="_blank" href="https://www.instagram.com/"> <img width="35px" height="35px" src="../imagenes/igns.png" alt="instagram-logo"> </a>
+                    
+                <a target="_blank" href="https://twitter.com/"><img width="35px" height="35px" src="../imagenes/twitter.png" alt="twitter-logo"></a>
+                    
+                <a target="_blank" href="https://www.facebook.com/"> <img width="35px" height="35px" src="../imagenes/faceboock.png" alt="facebook-logo"></a>
                 
-            <a target="_blank" href="https://www.facebook.com/"> <img class="div__iconos" src="../imagenes/faceboock.png" alt="facebook-logo"></a>
-               
-            <a target="_blank" href="https://www.whatsapp.com/">   <img class="div__iconos" src="../imagenes/wsp.png" alt="whatsapp-logo"></a>
-             
-        </div>
-        <div class="div2">
-            <p>Derechos Reservados - Clinica Veterinaria Razoka</a></p> 
-        </div>
-        <div class="div3">
-            <img src="../imagenes/LogoTipo2.png" alt="logotipo" width="50px" height="50px">
-        </div>
-           
+                <a target="_blank" href="https://www.whatsapp.com/">   <img width="35px" height="35px" src="../imagenes/wsp.png" alt="whatsapp-logo"></a>
+                
+            </div>
+            <div class="col-6" >
+                <p class="text-end" >Derechos Reservados - Clinica Veterinaria Razoka</a></p> 
+            </div>
+            <div class="col-2 text-end" >
+                <img  src="../imagenes/LogoTipo2.png" alt="logotipo" width="50px" height="50px">
+    
+        </footer>
 
-    </footer>
+    </div>
 </body>
 </html>

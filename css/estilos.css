@@ -1,4 +1,8 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .div-icono{
     width: 100%;
     display: flex;
@@ -20,4 +24,12 @@
     background: rgb(247,255,147);
     background: linear-gradient(180deg, rgba(247,255,147,1) 25%, rgba(161,227,216,1) 44%, rgba(6,154,142,1) 78%);
     color: rgb(58, 56, 69);
+}
+.invertir {
+    transform: scaleX(-1);
+}
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
